@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="">
+            <img src="./img/Logo.svg" alt="logo" class="logo_img">
+        </a>
+        <ul>
+            <li>
+                <a href="" class="menu_item">Main</a>
+            </li>
+            <li>
+                <a href="" class="menu_item">Rates</a>
+            </li>
+            <li>
+                <a href="" class="menu_item">create account</a>
+            </li>
+        </ul>
+    </header>
+    <section class="main">
+            <h1 class="main_title">Markup achievement</h1>
+            <p class="text">The harder you work for something, the greater you’ll feel when you achieve it.</p>
+            <button class="button">Learn More</button>
+            <img src="./img/image.png" alt="image">
+    </section>
+    <section class="rates_section">
+            <h2 class="title">Rates</h2>
+            <p class="text">Failure will never overtake me if my determination to succeed is strong enough.</p>
+            <table class="table">
+                <tr>
+                    <th class="table_subtitle gray">Features</th>
+                    <th class="table_title">Standart</th>
+                    <th class="table_title">Plus</th>
+                    <th class="table_title">PRO</th>
+                </tr>
+                <tr>
+                    <th class="table_subtitle">Theory</th>
+                    <td><img src="./img/Icon/check.png" alt="Yes"></td>
+                    <td><img src="./img/Icon/check.png" alt="Yes"></td>
+                    <td><img src="./img/Icon/check.png" alt="Yes"></td>
+                </tr>
+                <tr>
+                    <th class="table_subtitle">Practice</th>
+                    <td><img src="./img/Icon/close.png" alt="No"></td>
+                    <td><img src="./img/Icon/check.png" alt="Yes"></td>
+                    <td><img src="./img/Icon/check.png" alt="Yes"></td>
+                </tr>
+                <tr>
+                    <th class="table_subtitle">Code review</th>
+                    <td><img src="./img/Icon/close.png" alt="No"></td>
+                    <td><img src="./img/Icon/close.png" alt="No"></td>
+                    <td><img src="./img/Icon/check.png" alt="Yes"></td>
+                </tr>
+                <tr>
+                    <th class="table_subtitle table_footer"><a href="" class="table_link">Have questions?</a></th>
+                    <td><button type="button" class="table_button">Get Now</button></td>
+                    <td><button type="button" class="table_button active">Get Now</button></td>
+                    <td><button type="button" class="table_button">Get Now</button></td>
+                </tr>
+            </table>
+    </section>
+    <section class="create_accaunt_section">
+            <h2 class="title">Create your free account</h2>
+            <p class="text">Let us first talk about dreams. We all know that dreams do play a role in our daily lives. The majority of people pay little attention to dreams. Dreams can help us find solutions to our daily problems and see things from a different perspective. Whenever we are dreaming, we can be who or what we want to be, regardless of the fact that in real life.</p>
+            <ul class="list">
+                <li class="list_item">Easy setup, fast start</li>
+                <li class="list_item">Free forever for core features</li>
+                <li class="list_item">14-day trial of premium features</li>
+            </ul>
+            <form action="Post">
+                <input type="text" name="name" id="name" placeholder="Full Name*">
+                <input type="email" name="email" id="email" placeholder="Email*">
+                <input type="password" name="password" id="password" placeholder="Password*">
+                <input type="date" name="date" id="date">
+                <select name="coutries" id="countries">
+                    <option value="" selected disabled>Country</option>
+                    <option value="">Belarus</option>
+                    <option value="">China</option>
+                    <option value="">USA</option>
+                </select>
+                <div>
+                    <label for="frontend">
+                        <input type="radio" name="stack" id="frontend" checked>
+                        Frontend
+                    </label>                    
+                    <label for="backend">
+                        <input type="radio" name="stack" id="backend">
+                        Backend
+                    </label>
+                </div>
+                <fieldset>
+                    <legend>Favorite Technologies</legend>
+                    <label for="html">
+                        <input type="checkbox" name="html" id="html" checked>
+                        HTML
+                    </label>
+                    <label for="css">
+                        <input type="checkbox" name="css" id="css" checked>
+                        CSS
+                    </label>
+                    <label for="react">
+                        <input type="checkbox" name="react" id="react">
+                        React
+                    </label>
+                    <label for="sc">
+                        <input type="checkbox" name="sc" id="sc">
+                        Styled components
+                    </label>
+                </fieldset>
+                <textarea name="about" id="about" cols="30" rows="10" placeholder="Something else about you..."></textarea>
+                <button type="submit" class="button">Registration</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <small>Copyright © 2023. All rights reserved.</small>
+    </footer>
+</body>
+</html>
